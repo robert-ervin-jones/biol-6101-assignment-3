@@ -1,0 +1,27 @@
+# Snakemake
+.snakemake/
+
+# Results and intermediate files
+results/
+logs/
+
+# Data files (too large for git)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+
+# OS files
+.DS_Store
+Thumbs.db
