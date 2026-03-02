@@ -1,0 +1,54 @@
+# Load configuration
+configfile: "config/config.yaml"
+
+# TODO: Import any necessary Python libraries (e.g., pandas)
+
+# TODO: Read sample information from config file
+
+# Rule all: define the final outputs of the workflow
+rule all:
+    input:
+        # TODO: Add all final output files here
+
+
+# ============================================================================
+# TASK 1: Quality Control and Trimming
+# ============================================================================
+
+# TODO: Add rules for fastqc_raw, trim_galore, fastqc_trimmed, multiqc
+
+
+# ============================================================================
+# TASK 2: Read Alignment
+# ============================================================================
+
+# TODO: Add rules for star_index, star_align, sort_bam, index_bam, alignment_stats
+
+
+# ============================================================================
+# TASK 3: Read Quantification
+# ============================================================================
+
+# TODO: Add rule for feature_counts
+
+
+# ============================================================================
+# TASK 4: Count Matrix Generation
+# ============================================================================
+
+# TODO: Add rule to aggregate counts using workflow/scripts/aggregate_counts.py
+
+
+# ============================================================================
+# TASK 5: Exploratory Analysis
+# ============================================================================
+
+# TODO: Add rules to generate PCA and correlation plots using R scripts
+
+
+# ============================================================================
+# TASK 6: DESeq2 Preparation  
+# ============================================================================
+
+# TODO: Add rule to prepare DESeq2 dataset using workflow/scripts/prepare_deseq2.R
+
