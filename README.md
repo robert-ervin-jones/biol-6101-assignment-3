@@ -7,15 +7,13 @@ In this assignment, you will build a **Snakemake workflow** to analyze RNA-Seq d
 By completing this assignment, you will:
 - Build an RNA-Seq analysis pipeline from raw reads to gene counts
 - Use external Python and R scripts in your workflow
-- Implement input functions for dynamic dependencies
-- Work with temporary and protected files
 - Generate gene expression matrices and visualizations
 - Prepare data for differential expression analysis
 
 ## Prerequisites
 Before starting this assignment, ensure you have the following installed:
-- Python 3.8+
-- [Snakemake](https://snakemake.readthedocs.io/) (v7.0+)
+- Python
+- [Snakemake](https://snakemake.readthedocs.io/)
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 - [MultiQC](https://multiqc.info/)
 - [Trim Galore](https://github.com/FelixKrueger/TrimGalore)
