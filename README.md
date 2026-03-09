@@ -127,13 +127,12 @@ Use the provided R scripts and create Snakemake rules to:
 - `results/analysis/pca_plot.pdf`
 - `results/analysis/correlation_heatmap.pdf`
 
+### Task 6: DESeq2 Preparation
 Use the provided R script and create a Snakemake rule to:
 1. Load the count matrix and sample metadata
 2. Create a DESeq2 dataset object (use `workflow/scripts/prepare_deseq2.R`)
 3. Calculate size factors for normalization
 4. Save the DESeq2 object and normalized counts
-5. Calculate size factors for normalization
-6. Save the DESeq2 object and normalized counts
 
 **Note:** The R script is provided for you - focus on writing the Snakemake rule.
 
